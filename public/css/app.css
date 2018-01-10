@@ -8415,3 +8415,45 @@ body {
   margin-bottom: 0px;
 }
 
+/* Topic Index Page */
+
+.topics-index-page .topic-list .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 5px 15px;
+  font-size: 0.9en;
+}
+
+.topics-index-page .topic-list a {
+  color: #444444;
+}
+
+.topics-index-page .topic-list .meta {
+  font-size: 0.9em;
+  color: #b3b3b3;
+}
+
+.topics-index-page .topic-list .meta a {
+  color: #b3b3b3;
+}
+
+.topics-index-page .topic-list .badage {
+  background-color: #d8d8d8;
+}
+
+.topics-index-page .topic-list hr {
+  margin-bottom: 12px;
+  margin-bottom: 12px;
+  border: 0;
+  border-top: 1px solid #dcebf5;
+}
+
+.topics-index-page .topic-list .media {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.topics-index-page .topic-list .media:first-child {
+  margin-top: 15px;
+}
+
