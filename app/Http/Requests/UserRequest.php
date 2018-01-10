@@ -39,7 +39,7 @@ class UserRequest extends FormRequest
             'name.between' => '用户名必须介于3 - 25个字符之间',
             'name.required' => '用户名不能为空',
             'avatar.mimes' => '头像必须是 jpeg, bmp, png, gif 格式的图片',
-            'avatar.dimensions' => '图片的清晰度不够，宽和高需要 200px 以上'
+            'avatar.dimensions' => '图片的清晰度不够，宽和高需要 200px 以上aaa'
         ];
     }
 }
