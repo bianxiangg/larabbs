@@ -12,6 +12,7 @@ class CategoriesController extends Controller
         $topics = $topic->withOrder($request->order)
                         ->where('category_id', $category->id)
                         ->paginate(20);
+        // $topics = Topic::where('category_id', $category->id)->paginate(20);
         return view('topics.index', compact('topics', 'category'));
     }
 }
